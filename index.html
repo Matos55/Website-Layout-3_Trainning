@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Dashboard Template</title>
+
+    <!-- usar este fonte: "https://cdnjs.com/libraries/font-awesome"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+    <!--criar uma check box para mais tarde linkar com o label (no header). Está escondida-->
+    <input type="checkbox" id="check">
+
+    <!-- Header area start -->
+    <header>
+        <label for="check">
+            <!-- Adicionar o icone dos 3 traços -->
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left_area">
+            <h3>Coding <span>Snow</span></h3>
+        </div>
+        <div class="right_area">
+            <a href="#" class="logout_btn">Logout</a>
+        </div>
+    </header>
+    <!-- Header area end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+        <center>
+            <img src="../Matos/imagens/MVP MAIEV.png" class="profile_image" alt="">
+            <h4>MAIEV</h4>
+        </center>
+        
+        <!-- utilizar o link stylehseet para meter estes icons -->
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Components</span></a>
+        <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+        <a href="#"><i class="fas fa-th"></i><span>Form</span></a>
+        <a href="#"><i class="fas fa-circle"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+    </div>
+
+    <!-- Sidebar end -->
+
+    <div class="content"></div>
+
+
+    
+
+</body>
+</html>
